@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
 import AppHeader from "../app-header";
 import TodoList from "../todo-list";
 import SearchPanel from "../search-panel";
 import ItemStatusFilter from "../item-status-filter";
 import ItemAddForms from "../item-add-forms";
+import "./app.css";
 
 export default class App extends Component {
 
